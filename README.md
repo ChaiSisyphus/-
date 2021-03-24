@@ -1,7 +1,7 @@
 ## 记录编程的机会 经验 新学到的知识
 # map.getOrDefault(key， defaultValue)方法
   从map中根据键key获得对应的值，若没有键值对，则返回一个设置的默认值
-  ![image](https://user-images.githubusercontent.com/60838780/112315615-42243280-8ce5-11eb-9d49-b3a981369329.png
+![image](https://user-images.githubusercontent.com/60838780/112316131-c8d90f80-8ce5-11eb-8d04-5947dc2df2f0.png)
 # 多次循环下需要判断变量是否每次都要初始化
 Image: https://uploader.shimo.im/f/S0YqSWQyLT3g5U4N.png
 答案是只创建一次对象，因为String类型在java中被设定为一旦创建就不可改变类型，对String类型的改变，都是创建新的String类型。
