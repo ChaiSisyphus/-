@@ -20,4 +20,4 @@
 【4】prev.next = curr.next 指令执行之后，此时有还有一个结点指向curr，只是这个结点没有了其他结点指向，因此需要再次执行一次curr = curr.next,将链表继续遍历下去
 
 ![image](https://user-images.githubusercontent.com/60838780/112707223-c690d400-8ee4-11eb-988e-1d360d12e13e.png)
-【1】链表的结点在等号左边和右边代表的意思是不相同：node.next = 在等号左边，**表示为node寻找一个指向的对象**，使node指向下一个结点；= node.next 在等号右边**表示一个结点本体**，将此结点本体赋值给等号左边的地址；
+【1】链表的结点在等号左边和右边代表的意思是不相同：node.next = 在等号左边，**表示为node寻找一个指向的对象**，使node指向下一个结点；= node.next 在等号右边**表示一个结点本体**，将此结点本体赋值给等号左边的地址；【2】若相从链表中删除一个结点，需要同时两个标记curr和prev：prev.next = curr.next 这样就删除了curr结点；如果相加入一个结点需要一个标记就可以了：newNode.next = pointer.next; pointer.next = newNode;这样就在pointer结点之后插入了一个newNode结点；【3】如果想要适用一个结点标记删除节点比如说：node.next = node.next.next 这样就删除了node.next这个节点，但是在对链表进行遍历时，就要同时保证： node != null && node.next != null 这样结果就是会直接跳过链表最后一个节点，需要在遍历结束后对node进行 if(node != null){}的判断，然后将上边执行的程序再运行一遍。
