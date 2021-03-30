@@ -35,4 +35,4 @@
 
 # 有关字符串（String）的心得
 【1】任何对字符串进行操作的题一般都要将字符串转换为字符数组，然后按照对数组的操作对字符串进行操作
-【2】java中Sting自带的API非常强大，其中有非常多可以使用的方法，比如说toCharArray()——将字符串转换为字符数组；split(regex)——对字符串数组进行分裂，返回字符串数组；replace(oldString, newString)和replaceAll(regex, newString)可将将字符串中的元素进行替换；contact(stirng)——将新字符串连接在被操作字符串后边；charAt(index)——返回字符串索引处的char值；String.indexof(var)——将其他数据类型的数据转换为字符串；
+【2】java中Sting自带的API非常强大，其中有非常多可以使用的方法，比如说toCharArray()——将字符串转换为字符数组；split(regex)——对字符串数组进行分裂，返回字符串数组；replace(oldString, newString)和replaceAll(regex, newString)可将将字符串中的元素进行替换；contact(stirng)——将新字符串连接在被操作字符串后边；charAt(index)——返回字符串索引处的char值；indexof(var)——返回字符串第一次出现目标值时的索引；String.valueOf(var)——返回该变量的字符串形式；
