@@ -18,3 +18,7 @@
 【1】链表的结点在等号左边和右边代表的意思是不相同：node.next = 在等号左边，**表示为node寻找一个指向的对象**，使node指向下一个结点；= node.next 在等号右边**表示一个结点本体**，将此结点本体赋值给等号左边的地址；
 【2】若相从链表中删除一个结点，需要同时两个标记curr和prev：prev.next = curr.next 这样就删除了curr结点；如果相加入一个结点需要一个标记就可以了：newNode.next = pointer.next; pointer.next = newNode;这样就在pointer结点之后插入了一个newNode结点；
 【3】如果想要适用一个结点标记删除节点比如说：node.next = node.next.next 这样就删除了node.next这个节点，但是在对链表进行遍历时，就要同时保证： node != null && node.next != null 这样结果就是会直接跳过链表最后一个节点，需要在遍历结束后对node进行 if(node != null){}的判断，然后将上边执行的程序再运行一遍。
+
+![image](https://user-images.githubusercontent.com/60838780/112832961-a15cbb00-90c8-11eb-87a5-30e3f435c442.png)
+【1】当我们自己新建一个链表的时候，一定要给最后一个结点的执行地址赋值为为null： lastNode.next = null; 这是因为最后一个结点可能会指向其他结点，从而造成该链表不能正确结束。
+【2】对链表进行操作时，等号左边出现node.next 属性时，就涉及到对链表本身的属性进行修改，若左边只出现一个变量的时候，该变量可以看作一个指针，读取链表中的结点，却并不会对链表本身的属性进行修改。
