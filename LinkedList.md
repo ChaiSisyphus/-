@@ -1,14 +1,10 @@
 ![image](https://user-images.githubusercontent.com/60838780/113682878-30378c00-96f6-11eb-91b9-b6fb7a5ffa67.png)  
-
 这就是自己重写数据结构，为其添加遍历方法的写法，分为几下几步
 【1】类名中实现Iterator接口，重写返回Iterator类的方法
 【2】重写返回类的方法中，new一个新的类，在新new的类中重写hasNext()和next()两个方法
 【3】定义个指针指向链表起始，这个指针用n表示:Node n = sentinel，hasNext方法中使用n.next != null;表示，next()方法中用Node node = n.next;n = n.next;return node.item;三个语句移动指针的同时，返回结点的内容。
-—————— 
-
 
 ![image](https://user-images.githubusercontent.com/60838780/112478795-53d20c80-8daf-11eb-9c19-16e91ce91a7e.png)
-
 【1】对链表进行遍历的时候，一定要保证所有结点的next属性之前的对象不为空，对多个链表进行遍历在判断条件中一定是“&&”符号。
 【2】引用数据类型内部存的是地址，将一个引用数据类型赋值给另一个的时候，被赋值的引用数据类型，就指向之前的地址所代表的内容。因此这两个类型完全相同，修改一个地址对对应内容的同时另一个也会随之修改。
 【3】建立链表时一般需要建立一个头节点，该头节点内部只存储下一个结点的地址，不存储数据
