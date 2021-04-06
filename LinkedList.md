@@ -4,7 +4,8 @@
 【1】类名中实现Iterator接口，重写返回Iterator类的方法
 【2】重写返回类的方法中，new一个新的类，在新new的类中重写hasNext()和next()两个方法
 【3】定义个指针指向链表起始，这个指针用n表示:Node n = sentinel，hasNext方法中使用n.next != null;表示，next()方法中用Node node = n.next;n = n.next;return node.item;三个语句移动指针的同时，返回结点的内容。
-——————
+—————— 
+
 
 ![image](https://user-images.githubusercontent.com/60838780/112478795-53d20c80-8daf-11eb-9c19-16e91ce91a7e.png)
 
