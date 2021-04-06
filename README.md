@@ -21,3 +21,7 @@
 
 ![image](https://user-images.githubusercontent.com/60838780/113717572-53763180-971e-11eb-9f12-3f2ba6d831fe.png)
 【1】想使用队列的话一般就要使用多态形式，引用类型可选Queue和Deque，但是创建LinkedList的对象。调用方法的时候，会优先调用LinkedList中的方法，LinkedList中的方法，如果没找到就会调用Queue或Deque中的方法。
+
+
+**Queue与Deque**
+Queue为单向队列，满足先入先出原则，一般在一段插入结点另一端删除结点；Deque读作“deck”，表示“double ended queue（双端队列），两端都可以进行插入和删除操作。
