@@ -25,3 +25,7 @@
 
 **Queue与Deque**
 Queue为单向队列，满足先入先出原则，一般在一段插入结点另一端删除结点；Deque读作“deck”，表示“double ended queue（双端队列），两端都可以进行插入和删除操作。
+
+
+![image](https://user-images.githubusercontent.com/60838780/113721159-dbaa0600-9721-11eb-8fe6-6df64337e942.png)
+【1】在java中基本数据类型都是小写开头，引用数据类型都是大写开头
