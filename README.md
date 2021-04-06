@@ -17,3 +17,7 @@
 ![image](https://user-images.githubusercontent.com/60838780/113713734-40f9f900-971a-11eb-83a6-8375356e33c3.png)【1】这种多态的形式称为**父类引用指向子类对象**，通过引用类型直接定义的变量称为引用，new出来的都称为对象。
 
 ![image](https://user-images.githubusercontent.com/60838780/113716401-25442200-971d-11eb-825e-b6d6c5505ef2.png)多态的三个条件【1】要有继承实现关系【2】要有方法的重写【3】父类引用指向子类对象。【2】多态的好处：我们不关心所创建的对象是什么，我们只关心对于不同的对象我们都能调用同一种父类中的方法。通过多态我们可以传递不同的对象，通过不同的对象来调用重写后的方法，这样就增加了程序的灵活性和可拓展性【3】图中我们通过调用showAnimalEat(new Cat());showAnimalEat(new Dog());就相当于调用了showCatEar();showDogEat();两个方法。
+
+
+![image](https://user-images.githubusercontent.com/60838780/113717572-53763180-971e-11eb-9f12-3f2ba6d831fe.png)
+【1】想使用队列的话一般就要使用多态形式，引用类型可选Queue和Deque，但是创建LinkedList的对象。调用方法的时候，会优先调用LinkedList中的方法，LinkedList中的方法，如果没找到就会调用Queue或Deque中的方法。
