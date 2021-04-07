@@ -34,6 +34,9 @@
 ![image](https://user-images.githubusercontent.com/60838780/113713734-40f9f900-971a-11eb-83a6-8375356e33c3.png)  
 【1】这种多态的形式称为**父类引用指向子类对象**，通过引用类型直接定义的变量称为引用，new出来的都称为对象。
 ***
+### 多态的方法调用规则
+【1】优先检查调用的方法，父类中是否有，没有则报错；若有，优先执行子类中重写的父类方法，子类没有重写，则调用父类方法
+***
 ### 多态的条件、好处，以及思想
 ![image](https://user-images.githubusercontent.com/60838780/113716401-25442200-971d-11eb-825e-b6d6c5505ef2.png)  
 【1】多态的三个条件  （1）要有继承实现关系（2）要有方法的重写（3）父类引用指向子类对象.  
@@ -41,8 +44,9 @@
 【3】图中我们通过调用showAnimalEat(new Cat());showAnimalEat(new Dog());就相当于调用了showCatEar();showDogEat();两个方法。
 ***
 ### 编程中使用队列的写法
-![image](https://user-images.githubusercontent.com/60838780/113717572-53763180-971e-11eb-9f12-3f2ba6d831fe.png)  
-【1】想使用队列的话一般就要使用多态形式，引用类型可选Queue和Deque，但是创建LinkedList的对象。调用方法的时候，会优先调用LinkedList中的方法，LinkedList中的方法，如果没找到就会调用Queue或Deque中的方法。
+![image](https://user-images.githubusercontent.com/60838780/113871005-04df9a80-97e5-11eb-9670-7227a4502ba2.png)  
+【1】想使用队列的话一般就要使用多态形式，引用类型可选**Queue**，但是创建LinkedList的对象。  
+【2】调用方法的时候，会优先调用LinkedList中重写Queue的方法，如果调用的不是Queue中的方法(LinkedList重写的方法)就会报错。
 ***
 ### Queue与Deque
 Queue为单向队列，满足先入先出原则，一般在一段插入结点另一端删除结点；Deque读作“deck”，表示“double ended queue（双端队列），两端都可以进行插入和删除操作。
