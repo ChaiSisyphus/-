@@ -1,4 +1,3 @@
-## 记录编程的机会 经验 新学到的知识
 # 记录新学会的java编程知识
   map.getOrDefault(key， defaultValue)方法
   从map中根据键key获得对应的值，若没有键值对，则返回一个设置的默认值
@@ -29,3 +28,6 @@ Queue为单向队列，满足先入先出原则，一般在一段插入结点另
 
 ![image](https://user-images.githubusercontent.com/60838780/113721159-dbaa0600-9721-11eb-8fe6-6df64337e942.png)
 【1】在java中基本数据类型都是小写开头，引用数据类型都是大写开头
+
+### getClass()  
+getClass()为Object类的所属方法，因此每个对象都可以调用getClass()方法，返回该对象的运行时类
