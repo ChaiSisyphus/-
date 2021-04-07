@@ -4,7 +4,20 @@
 ![image](https://user-images.githubusercontent.com/60838780/112316131-c8d90f80-8ce5-11eb-8d04-5947dc2df2f0.png)这样的写法用处：以数值本身位键，以该数值出现的次数为值，对Map容器进行填充
 *** 
 ### 数组
-Image: https://uploader.shimo.im/f/DYoxQVUYEsfLqPQs.png
+![image](https://user-images.githubusercontent.com/60838780/113825295-625af380-97b3-11eb-99a4-aa400b98b636.png)
+【1】数组不是基本数据类型，里边存放一个地址。将数组带入方法时，实质上是将数组的起始地址带入方法，直接对该数组进行操作，操作结束后无需设置返回值，原地址上就是操作结束后的数组。  
+【2】**数组打印输出**时，可采用Arrays.toString(数组名)的方法。
+***
+### 包装类与基本数据类型
+![image](https://user-images.githubusercontent.com/60838780/113825553-b4037e00-97b3-11eb-98d6-5171ae594872.png)  
+【1】基本数据类型转换为包装类的时候，其实内部调用的是Integer.valueOf(int index)方法  
+![image](https://user-images.githubusercontent.com/60838780/113825691-e0b79580-97b3-11eb-9461-65a59c9dabd5.png)  
+【2】包装类转换为基本数据类型的时候，调用的是index.intValur;  
+***
+### set集合和list集合
+【1】set集合存储数据无序，但是不允许数据重复。主要包括HashSet，但是LinkedHashSet存储数据是有序的。  
+【2】set集合不允许存储相同的数据元素，add()方法在存储相同的数据时返回false，因此可以对数组中是否存在相同的元素进行检测。  
+【3】List集合存放数据有序，允许数据进行重复，其中主要包括LinkedList和ArrayList；
 ***
 ### String与字符串常量池
 ![image](https://user-images.githubusercontent.com/60838780/112316267-e6a67480-8ce5-11eb-9e93-88f22135c6cc.png)  
@@ -40,3 +53,7 @@ Queue为单向队列，满足先入先出原则，一般在一段插入结点另
 ***
 ### getClass() 属于Object类，类似的还有hashCode();equals();toString();方法
 getClass()为Object类的所属方法，因此每个对象都可以调用getClass()方法，返回该对象的运行时类
+***
+### 希尔排序
+``` 
+
