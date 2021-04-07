@@ -2,6 +2,9 @@
   map.getOrDefault(key， defaultValue)方法
   从map中根据键key获得对应的值，若没有键值对，则返回一个设置的默认值
 ![image](https://user-images.githubusercontent.com/60838780/112316131-c8d90f80-8ce5-11eb-8d04-5947dc2df2f0.png)这样的写法用处：以数值本身位键，以该数值出现的次数为值，对Map容器进行填充
+*** 
+### 数组
+Image: https://uploader.shimo.im/f/DYoxQVUYEsfLqPQs.png
 ***
 ### String与字符串常量池
 ![image](https://user-images.githubusercontent.com/60838780/112316267-e6a67480-8ce5-11eb-9e93-88f22135c6cc.png)  
