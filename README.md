@@ -85,5 +85,6 @@ Person person;
 person = new Person("ZhangSan");
 ```
 【1】Person是一个类，而person是由类定义的一个引用，“ZhangSan”为一个对象，所以称为person是指向“ZhangSan”对象的一个引用。  
-【2】只有new出来的数据类型，才能称为对象。由类定义的数据类型，称为引用数据类型。
+【2】只有new出来的数据类型，才能称为对象。由类定义的数据类型，称为引用数据类型。  
+【3】对象内存数据，引用内存地址。  
 
