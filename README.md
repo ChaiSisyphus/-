@@ -13,6 +13,13 @@
 【1】基本数据类型转换为包装类的时候，其实内部调用的是Integer.valueOf(int index)方法  
 ![image](https://user-images.githubusercontent.com/60838780/113825691-e0b79580-97b3-11eb-9461-65a59c9dabd5.png)  
 【2】包装类转换为基本数据类型的时候，调用的是index.intValur;  
+```
+Integer i4 = new Integer(40);
+Integer i5 = new Integer(40);
+Integer i6 = new Integer(0);
+System.out.println(i4 == i5 + i6);   //true
+```
+【3】加减操作并不适合Integer对象，i5和i6进行自动拆箱操作，将包装类转化为int类型然后参加运算，所以上述式子就相当于：40 == 40 + 0；
 ***
 ### set集合和list集合
 【1】set集合存储数据无序，但是不允许数据重复。主要包括HashSet，但是LinkedHashSet存储数据是有序的。  
