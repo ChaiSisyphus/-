@@ -90,4 +90,8 @@ person = new Person("ZhangSan");
 ***
 ### long类型的写法注意
 【1】long类型的数据一定要在数值后面加上一个L，否则会被作为整型解析
+***
+### 包装类的常量池
+【1】Byte、Short、Integer、Long、Character、Boolean都实现了产量池技术  
+【2】Folat、Double并没有实现常量池技术
 
