@@ -117,4 +117,16 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/114267574-0bf9e900-9a2f-11eb-8bdd-7fa7899ff9de.png)  
 【1】如果需要泛型之间比较，一般来说就是键或者值进行比较，需要**继承**Comparable接口，注意是**继承**，而不是实现  
 【2】继承Comparable接口之后，泛型就可以调用comparableTo()方法
+***
+### 二叉树
+![image](https://user-images.githubusercontent.com/60838780/114271322-55ecca00-9a43-11eb-82ff-ff61f0632af7.png)  
+【1】对于二叉树来说，最好的办法就是采用递归的方法
+【2】如图所示代码，就可以先当于对二叉树的所有结点进行遍历
+![image](https://user-images.githubusercontent.com/60838780/114271370-93515780-9a43-11eb-94fd-66285b621a69.png)  
+【3】如图所示代码，是二叉树递归有返回值的情况，返回值可以自己定义。若返回值为结点，就与链表的操作类似。  
+![image](https://user-images.githubusercontent.com/60838780/114271409-c5fb5000-9a43-11eb-8442-87c879e41c92.png)  
+【4】如果所示，返回值为层数，便可以计算二叉树的最大深度 
+
+
+
 
