@@ -120,7 +120,7 @@ person = new Person("ZhangSan");
 ***
 ### 二叉树
 ![image](https://user-images.githubusercontent.com/60838780/114271322-55ecca00-9a43-11eb-82ff-ff61f0632af7.png)  
-【1】对于二叉树来说，最好的办法就是采用递归的方法
+【1】对于二叉树来说，最好的办法就是采用递归的方法  
 【2】如图所示代码，就可以先当于对二叉树的所有结点进行遍历
 ![image](https://user-images.githubusercontent.com/60838780/114271370-93515780-9a43-11eb-94fd-66285b621a69.png)  
 【3】如图所示代码，是二叉树递归有返回值的情况，返回值可以自己定义。若返回值为结点，就与链表的操作类似。  
