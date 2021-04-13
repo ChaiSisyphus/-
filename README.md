@@ -81,10 +81,11 @@ h = 2 * h + 1 < array.length;
 ### 快速排序
 ![image](https://user-images.githubusercontent.com/60838780/114509497-24a11380-9c68-11eb-92d8-67c6917d8798.png)  
 【1】当两个指针相遇后，必须要再次查找一次，找到下一个右指针定位的地方，然后将右指针与差分依据进行交换，因此使用
-```while(tre){
+```
+while(true){
     if(){
-     break;
-   }
+      break;
+    }
    ```
 的方式，判断条件放在循环之后，不满足条件时循环体多运行一次
 ***
