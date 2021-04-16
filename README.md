@@ -140,6 +140,11 @@ person = new Person("ZhangSan");
 【1】Object object = new Object();  
 【2】引用数据类型为空表示，new Object（）为空，即object（引用）指向的内存地址没有存放数据，但是内存地址已经开辟，里边存放的是系统给与的默认值null 
 【3】引用数据类型为null表示，该引用指向的内存地址不存在，根本就没有为其分配内存地址，此时调用方法，会产生空指针异常的报错  
+***
+### equals方法避免出现空指针异常
+![image](https://user-images.githubusercontent.com/60838780/114960127-00784900-9e99-11eb-9b32-fd3a0f8fecae.png)  
+推荐使用**Object.equals(a, b)**  
+***
 
 
 
