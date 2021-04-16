@@ -1,6 +1,5 @@
 ### map方法
-  map.getOrDefault(key， defaultValue)方法
-  ``` map ```test
+  ```map.getOrDefault(key， defaultValue)```方法  
   从map中根据键key获得对应的值，若没有键值对，则返回一个设置的默认值
 ![image](https://user-images.githubusercontent.com/60838780/112316131-c8d90f80-8ce5-11eb-8d04-5947dc2df2f0.png)这样的写法用处：以数值本身位键，以该数值出现的次数为值，对Map容器进行填充
 *** 
@@ -44,7 +43,7 @@ System.out.println(i4 == i5 + i6);   //true
 ![image](https://user-images.githubusercontent.com/60838780/113716401-25442200-971d-11eb-825e-b6d6c5505ef2.png)  
 【1】多态的三个条件  （1）要有继承实现关系（2）要有方法的重写（3）父类引用指向子类对象.  
 【2】多态的好处：我们不关心所创建的对象是什么，我们只关心对于不同的对象我们都能调用同一种父类中的方法。通过多态我们可以传递不同的对象，通过不同的对象来调用重写后的方法，这样就增加了程序的灵活性和可拓展性  
-【3】图中我们通过调用showAnimalEat(new Cat());showAnimalEat(new Dog());就相当于调用了showCatEar();showDogEat();两个方法。
+【3】图中我们通过调用```showAnimalEat(new Cat());``````showAnimalEat(new Dog());```就相当于调用了```showCatEar();``````showDogEat();```两个方法。
 ***
 ### 编程中使用队列的写法
 ![image](https://user-images.githubusercontent.com/60838780/113871005-04df9a80-97e5-11eb-9670-7227a4502ba2.png)  
@@ -59,7 +58,7 @@ Queue为单向队列，满足先入先出原则，一般在一段插入结点另
 【1】在java中基本数据类型都是小写开头，引用数据类型都是大写开头
 ***
 ### getClass() 属于Object类，类似的还有hashCode();equals();toString();方法
-getClass()为Object类的所属方法，因此每个对象都可以调用getClass()方法，返回该对象的运行时类
+getClass()为Object类的所属方法，因此每个对象都可以调用```getClass()```方法，返回该对象的运行时类
 ***
 ### 希尔排序
 【1】希尔排序与直接插入排序的区别在于：每单次排序时的跨越长度h不一样。直接插入排序跨越区间始终为1，而希尔排序h在不断减少，直至变为1.并且h的选择规则为：
@@ -102,7 +101,7 @@ while(true){
 ***
 ### 栈与队列的顶与底，peek()函数的返回项
 【1】栈与队列的顶与底在图形描述上刚好相反  
-【2】栈与队列的顶都是下一个即将弹出的元素，因此也是peek()函数的返回对象。
+【2】栈与队列的顶都是下一个即将弹出的元素，因此也是```peek()```函数的返回对象。
 ***
 ### 类、对象与引用
 我们看这段代码
@@ -118,8 +117,8 @@ person = new Person("ZhangSan");
 【1】long类型的数据一定要在数值后面加上一个L，否则会被作为整型解析
 ***
 ### 包装类的常量池
-【1】Byte、Short、Integer、Long、Character、Boolean都实现了产量池技术  
-【2】Folat、Double并没有实现常量池技术
+【1】```Byte、Short、Integer、Long、Character、Boolean```都实现了产量池技术  
+【2】```Folat、Double```并没有实现常量池技术
 ***
 ### 递归思想
 【1】每一次递归都会向着退出递归的条件逼近，就好像闭环控制系统向着稳定条件逼近一样  
@@ -135,7 +134,7 @@ person = new Person("ZhangSan");
 ### 泛型继承Comparable接口
 ![image](https://user-images.githubusercontent.com/60838780/114267574-0bf9e900-9a2f-11eb-8bdd-7fa7899ff9de.png)  
 【1】如果需要泛型之间比较，一般来说就是键或者值进行比较，需要**继承**Comparable接口，注意是**继承**，而不是实现  
-【2】继承Comparable接口之后，泛型就可以调用comparableTo()方法
+【2】继承Comparable接口之后，泛型就可以调用```comparableTo()```方法
 ***
 ### 引用数据类型为空和为null的区别
 【1】Object object = new Object();  
@@ -144,7 +143,7 @@ person = new Person("ZhangSan");
 ***
 ### equals方法避免出现空指针异常
 ![image](https://user-images.githubusercontent.com/60838780/114960127-00784900-9e99-11eb-9b32-fd3a0f8fecae.png)  
-推荐使用**Object.equals(a, b)**  
+推荐使用```Object.equals(a, b)```
 ***
 
 
