@@ -1,4 +1,4 @@
-[BinaryTree](https://github.com/ChaiSisyphus/CodeSummary/blob/main/BinayTree.md)
+[**BinaryTree**](https://github.com/ChaiSisyphus/CodeSummary/blob/main/BinayTree.md)
 
 ### map方法
   ```map.getOrDefault(key， defaultValue)```方法  
