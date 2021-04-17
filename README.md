@@ -148,6 +148,16 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/114960127-00784900-9e99-11eb-9b32-fd3a0f8fecae.png)  
 推荐使用```Object.equals(a, b)```
 ***
+### Comparable Comparator 的使用方法
+![image](https://user-images.githubusercontent.com/60838780/115099621-b1e6af80-9f69-11eb-9a09-44aa3e82aba4.png)  
+【1】对于泛型需要继承`Comparable<T>`接口，这样泛型就能调用`compareTo()`方法，然后泛型之间就可以进行比较
+![image](https://user-images.githubusercontent.com/60838780/115099717-43562180-9f6a-11eb-9318-3eb7645bcede.png)  
+【2】自定义一个类的时候，该类实现`Comparable<Person>`接口，然后重写`compareTo`方法，即对该类定义了排序规则，这样就可以直接调用sort方法进行排序，或者使用treeMap等本身就具有排序的容器  
+![image](https://user-images.githubusercontent.com/60838780/115099793-ce371c00-9f6a-11eb-9b23-661df6230113.png)  
+【3】当集合没有排序方法，或者想新定义一种排序方法时，可以在`sort`方法中新建一个`Comparator<Integer>`对象，并重写`Compare`方法即可  
+***
+
+
 
 
 
