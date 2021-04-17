@@ -1,6 +1,6 @@
 [**BinaryTree**](https://github.com/ChaiSisyphus/CodeSummary/blob/main/BinayTree.md)  
 [**Collection**](https://github.com/ChaiSisyphus/CodeSummary/blob/main/Collection.md)  
-
+[Comparable Comparator 的使用方法]
 ### map方法
   ```map.getOrDefault(key， defaultValue)```方法  
   从map中根据键key获得对应的值，若没有键值对，则返回一个设置的默认值
