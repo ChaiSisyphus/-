@@ -15,4 +15,7 @@
 ![image](https://user-images.githubusercontent.com/60838780/114993299-426fb200-9ece-11eb-9ab2-0269b252bea8.png)  
 【1】用这种方式可以快速创建一个满二叉树，并且二叉树的左子节点和右子节点都不一样  
 【2】以左子节点向下遍历的时候，可以传递参数，该参数只属于当前结点的左子节点，可进行赋值，计算或者创建一个新的左子结点，右子节点同理  
-
+***
+![image](https://user-images.githubusercontent.com/60838780/115196670-c4581900-a122-11eb-8896-3d14bf76ce8c.png)  
+【1】不在传入curr.left或者curr.right而是每次生成新的root的左右结点，而返回给root  
+【2】此方法只有在所有结点在一个数组中同时出现的时候才能使用
