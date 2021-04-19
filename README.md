@@ -156,6 +156,9 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/115099793-ce371c00-9f6a-11eb-9b23-661df6230113.png)  
 【3】当集合没有排序方法，或者想新定义一种排序方法时，可以在`sort`方法中新建一个`Comparator<Integer>`对象，并重写`Compare`方法即可  
 ***
+![image](https://user-images.githubusercontent.com/60838780/115202242-cae98f00-a128-11eb-94ed-2a01ed8308c9.png)  
+【1】将方法中的参数传出可以使用，设置成员变量，使用this关键字进行赋值的方法  
+
 
 
 
