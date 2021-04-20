@@ -18,4 +18,7 @@
 ***
 ![image](https://user-images.githubusercontent.com/60838780/115196670-c4581900-a122-11eb-8896-3d14bf76ce8c.png)  
 【1】不在传入curr.left或者curr.right而是每次生成新的root的左右结点，而返回给root  
-【2】此方法只有在所有结点在一个数组中同时出现的时候才能使用
+【2】此方法只有在所有结点在一个数组中同时出现的时候才能使用  
+![image](https://user-images.githubusercontent.com/60838780/115353357-ff258400-a1ea-11eb-9de2-6cd0042543ec.png)  
+【1】通过递归判断改数是否为二叉排序树  
+【2】每一次递归都是在缩小下一次递归的判断范围，如果下一次递归数值不在范围之中，则返回false  
