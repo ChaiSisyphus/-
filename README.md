@@ -159,6 +159,11 @@ person = new Person("ZhangSan");
 ***
 ![image](https://user-images.githubusercontent.com/60838780/115202242-cae98f00-a128-11eb-94ed-2a01ed8308c9.png)  
 【1】将方法中的参数传出可以使用，设置成员变量，使用this关键字进行赋值的方法  
+***
+### 静态代理
+![image](https://user-images.githubusercontent.com/60838780/115331114-e9529780-a1c7-11eb-9bf9-405ed726c667.png)  
+【1】使用静态代理，可以增加已经实现类的功能，并且不改变原有类的功能  
+【2】接口也是可以创建接口引用的，比如使用多态的时候：父类引用指向子类对象  
 
 
 
