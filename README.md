@@ -1,5 +1,6 @@
 [**BinaryTree**](https://github.com/ChaiSisyphus/CodeSummary/blob/main/BinayTree.md)  
 [**Collection**](https://github.com/ChaiSisyphus/CodeSummary/blob/main/Collection.md)  
+[**Array**](https://github.com/ChaiSisyphus/CodeSummary/blob/main/Array.md#%E6%95%B0%E7%BB%84%E7%9A%84%E5%8D%87%E5%BA%8F%E4%B8%8E%E9%99%8D%E5%BA%8F%E6%8E%92%E5%88%97)  
 [Comparable Comparator 的使用方法](https://github.com/ChaiSisyphus/CodeSummary/blob/main/README.md#comparable-comparator-%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 ### map方法
   ```map.getOrDefault(key， defaultValue)```方法  
