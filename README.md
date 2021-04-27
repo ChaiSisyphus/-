@@ -165,6 +165,10 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/115331114-e9529780-a1c7-11eb-9bf9-405ed726c667.png)  
 【1】使用静态代理，可以增加已经实现类的功能，并且不改变原有类的功能  
 【2】接口也是可以创建接口引用的，比如使用多态的时候：父类引用指向子类对象  
+### 定义指针时的命名
+![image](https://user-images.githubusercontent.com/60838780/116175617-393eda80-a743-11eb-8d29-40cf7b94c41d.png)  
+【1】对于不同的指针指向，在命名中要将名称相互对应，这样容易识别  
+
 
 
 
