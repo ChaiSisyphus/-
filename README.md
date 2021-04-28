@@ -168,7 +168,9 @@ person = new Person("ZhangSan");
 ### 定义指针时的命名
 ![image](https://user-images.githubusercontent.com/60838780/116175617-393eda80-a743-11eb-8d29-40cf7b94c41d.png)  
 【1】对于不同的指针指向，在命名中要将名称相互对应，这样容易识别  
-
+###  取余的使用场景
+![image](https://user-images.githubusercontent.com/60838780/116339223-9f912f00-a80f-11eb-876c-696fdfb1d1cc.png)  
+【1】当需要超过一个数就返回另一个数的时候，就可以使用取余的做法，这个机制和**X进制**的思想很像，因此在做计算进制时也可以使用取余的思想  
 
 
 
