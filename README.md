@@ -186,6 +186,7 @@ person = new Person("ZhangSan");
 【1】如果只是为了保证容器内元素不重复，完全可以使用`hashset`容器，`hashmap`主要用来做一一映射使用  
 ![Snipaste_2021-05-08_15-20-34](https://user-images.githubusercontent.com/60838780/117531678-4b0f6000-b016-11eb-9ea6-1f07808b5d13.png)  
 【2】比如上述情况时，出现一组组的对应情况的时候，直接使用map集合可以进行快速的映射  
-
-
-
+### 读取项目中的文件  
+![image](https://user-images.githubusercontent.com/60838780/117541468-8fb2ef80-b046-11eb-88e1-7dc8db0b015a.png)  
+【1】通过文件名获取文件的绝对路径：`ClassName.class.getClassLoader.gerResource("fileName").getPath()`输出结果为该文件的绝对路径  
+【2】通过`new FileReader(path)`获得该文件的字节出入流  
