@@ -190,3 +190,7 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/117541468-8fb2ef80-b046-11eb-88e1-7dc8db0b015a.png)  
 【1】通过文件名获取文件的绝对路径：`ClassName.class.getClassLoader.gerResource("fileName").getPath()`输出结果为该文件的绝对路径  
 【2】通过`new FileReader(path)`获得该文件的字节出入流  
+### 回溯的思想
+【1】回溯一般在寻找所有的解的情况下使用，相当于穷举法，但是回溯可以对当前节点进行判断，如果不满足便直接返回，相当于剪枝  
+【2】回溯的一般写法为：**循环内部递归** ，相当于深度优先搜索  
+【3】因为回溯的思想，所以一般来说，递归之前做了什么，递归之后就要做与之相反的事情，回到上一次的运行状态  
