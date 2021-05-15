@@ -212,6 +212,10 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/118215485-2860c980-b4a4-11eb-9355-70fa8a03512d.png)  
 [1] 对于需要每次输出全部元素的场合 for循环应该每次都从0开始起步  
 [2] 对于需寻找满足条件的几个内部元素时 for循环应该每次从index + 1开始起步  
+*** 
+### 取一些数字的最大值的写法
+![image](https://user-images.githubusercontent.com/60838780/118354298-08f99780-b59d-11eb-91ae-28c07a3a6735.png)  
+[1] 使用`res = Math.max(res, obejct)`便可以快速简便的得到一系列数字中的最大值  
 
 
 
