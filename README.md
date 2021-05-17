@@ -216,6 +216,10 @@ person = new Person("ZhangSan");
 ### 取一些数字的最大值的写法
 ![image](https://user-images.githubusercontent.com/60838780/118354298-08f99780-b59d-11eb-91ae-28c07a3a6735.png)  
 [1] 使用`res = Math.max(res, obejct)`便可以快速简便的得到一系列数字中的最大值  
-
+***
+### 对于多个元素集合的排序方法  
+![image](https://user-images.githubusercontent.com/60838780/118422665-3b6ad800-b6f6-11eb-8f45-9fa047b58293.png)  
+[1] 排序的元素有多个的时候, 就可能出现两种排序可能性: (1) 以 头头/尾尾 对于比较规则 (2)以 头尾/尾头 作为比较规则  
+[2] 最后去画一画图, 可以帮助理解, 自己思考很长时间, 还可能出错, 因此画图应该是比较节省时间的一种做法  
 
 
