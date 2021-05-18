@@ -232,3 +232,6 @@ person = new Person("ZhangSan");
 ### ArrayList转化为数组  
 ![image](https://user-images.githubusercontent.com/60838780/118453785-3162cc80-b72a-11eb-8fb1-f6520ffc3c19.png)  
 [1] 使用arraylist的toArray方法, 其中括号中填写一个对应数据类型的索引即可  
+### 快速判断后续程序是否执行
+![image](https://user-images.githubusercontent.com/60838780/118582814-97049680-b7c6-11eb-9379-81d6f8ff2e87.png)  
+[1] 以上写法快速而简便 (1) 善于使用break进行剪枝, 减少循环次数, 满足后续程序执行条件时跳出 (2) 同时设置一个布尔量, 在跳出之前对布尔赋值, 作为后续程序是否执行的判断准则  
