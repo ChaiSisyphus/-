@@ -236,3 +236,6 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/118582814-97049680-b7c6-11eb-9379-81d6f8ff2e87.png)  
 [1] 以上写法快速而简便 (1) 善于使用break进行剪枝, 减少循环次数, 满足后续程序执行条件时跳出 (2) 同时设置一个布尔量, 在跳出之前对布尔赋值, 作为后续程序是否执行的判断准则  
 ### 集合命名一般使用复数, 这样便利时变量使用单数, 方便命名  
+### 数组利用自身作为索引进行赋值, 需要注意 
+![image](https://user-images.githubusercontent.com/60838780/118950636-f6140800-b98c-11eb-98c8-db86c3df1603.png)  
+[1] 这样写会造成对自身赋值的无限循环, 因此需要利用temp保存自身所在的值, 然后使用temp在对自身进行赋值  
