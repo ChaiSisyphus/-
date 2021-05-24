@@ -239,3 +239,6 @@ person = new Person("ZhangSan");
 ### 数组利用自身作为索引进行赋值, 需要注意 
 ![image](https://user-images.githubusercontent.com/60838780/118950636-f6140800-b98c-11eb-98c8-db86c3df1603.png)  
 [1] 这样写会造成对自身赋值的无限循环, 因此需要利用temp保存自身所在的值, 然后使用temp在对自身进行赋值  
+# char类型为空时
+[1] 当char为空时, 里边其实还有'/0' 所以当返回空char时, 需要写`return '/0'`  
+[2] 判断char是否为空: `char == '/0'  
