@@ -256,3 +256,9 @@ person = new Person("ZhangSan");
 这也说明, 在计算机中将0当作正数处理, 因此有符号byte范围正数为:0 ~ 127, 负数: -128 ~ -1   
 ![image](https://user-images.githubusercontent.com/60838780/119779872-bd7bad80-befb-11eb-9a22-3a596a384908.png)  
 [5] 位运算符的计算效率比一般运算符要高, 如下图所示`>>`可将数据减半, `num & 0b1 == 1` 可判断num是否为奇数  
+### 回溯或者深度优先遍历时, 遇到需要使用二维容器时需要注意:
+![image](https://user-images.githubusercontent.com/60838780/119938984-c59d2100-bfbf-11eb-8c8d-6253432e33df.png)  
+![image](https://user-images.githubusercontent.com/60838780/119938900-a900e900-bfbf-11eb-9c4a-bd5ef79f743b.png)    
+[1] 需要使用二维容器时若知道二维容器的大小直接使用数组, 若不知道, 建议使用`List<List<Integer>> list`的结构, 因为单个容器向数组链表中填充元素时, 
+需要注意: **必须创建新的元素才能彻底保存在容器中**, 因此Arrylist有构造方法: `new Arraylist<>(tempList)`可以创建新的元素  
+[2] 如果出现容器中所有链表内容一致的问题, 就要思考是否在保存元素时, 创建了新的对象  
