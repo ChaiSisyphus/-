@@ -265,3 +265,6 @@ person = new Person("ZhangSan");
 ### 打印数组的方法  
 ![image](https://user-images.githubusercontent.com/60838780/119949716-b7a1cd00-bfcc-11eb-8db9-606465ccf63e.png)  
 [1]使用`String.valueOf(Array)`打印出的结果不带括号, 使用`Arrays.toString(Array)`打印结果带有括号  
+### 使用单个指针删除链表节点  
+![image](https://user-images.githubusercontent.com/60838780/119955501-ae1b6380-bfd2-11eb-8da4-e8b62d01cf70.png)  
+[1] 如图所示, 覆盖掉当前节点的value和next值即可, 删除掉当前节点  
