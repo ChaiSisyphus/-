@@ -262,3 +262,6 @@ person = new Person("ZhangSan");
 [1] 需要使用二维容器时若知道二维容器的大小直接使用数组, 若不知道, 建议使用`List<List<Integer>> list`的结构, 因为单个容器向数组链表中填充元素时, 
 需要注意: **必须创建新的元素才能彻底保存在容器中**, 因此Arrylist有构造方法: `new Arraylist<>(tempList)`可以创建新的元素  
 [2] 如果出现容器中所有链表内容一致的问题, 就要思考是否在保存元素时, 创建了新的对象  
+### 打印数组的方法  
+![image](https://user-images.githubusercontent.com/60838780/119949716-b7a1cd00-bfcc-11eb-8db9-606465ccf63e.png)  
+[1]使用`String.valueOf(Array)`打印出的结果不带括号, 使用`Arrays.toString(Array)`打印结果带有括号  
