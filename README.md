@@ -269,3 +269,5 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/119955501-ae1b6380-bfd2-11eb-8da4-e8b62d01cf70.png)  
 [1] 如图所示, 覆盖掉当前节点的value和next值即可, 删除掉当前节点  
 [2] 可以理解为n2节点的内存依然在链表中, 但是内容却变成了n3的内容, 就相当于n2不存在了  
+### java的数字形式  
+[1] java的数字形式包括: .111   111.   1e1   -111  +111
