@@ -232,6 +232,7 @@ person = new Person("ZhangSan");
 ### ArrayList转化为数组  
 ![image](https://user-images.githubusercontent.com/60838780/118453785-3162cc80-b72a-11eb-8fb1-f6520ffc3c19.png)  
 [1] 使用arraylist的toArray方法, 其中括号中填写一个对应数据类型的索引即可  
+【2】 其原因是：入参数组长度小于真实数组长度，则对其进行自动扩容  
 ### 快速判断后续程序是否执行
 ![image](https://user-images.githubusercontent.com/60838780/118582814-97049680-b7c6-11eb-9379-81d6f8ff2e87.png)  
 [1] 以上写法快速而简便 (1) 善于使用break进行剪枝, 减少循环次数, 满足后续程序执行条件时跳出 (2) 同时设置一个布尔量, 在跳出之前对布尔赋值, 作为后续程序是否执行的判断准则  
@@ -273,3 +274,10 @@ person = new Person("ZhangSan");
 [1] java的数字形式包括: .111   111.   1e1   -111  +111
 ### java中函数与过程  
 [1] java中把方法分为两类: 有返回值的方法称为函数(function), 没有返回值的方法称为过程(procedure)   
+### 可变长度参数列表  
+![image](https://user-images.githubusercontent.com/60838780/120281461-8cc8b900-c2eb-11eb-98eb-5d4b8d3da0e0.png)  
+【1】 如果方法调用中的参数列表中出现`...` ， 表示该参数传递为可变长度的参数列表， 可以选选择传0或者多个参数  
+### 泛型在class类中的使用方法  
+![image](https://user-images.githubusercontent.com/60838780/120282139-60fa0300-c2ec-11eb-80b9-bb97bc0f423c.png)  
+【1】`Class<T>`其中T表示该该类对象对应的类的类型，如String.class类型就是Class<String>, 如果要表示的类是未知的就是用?表示`Class<?>`  
+【2】当返回值的类型不确定时也需要使用泛型， 使用格式为： `<T> T` 表示返回值类型  
