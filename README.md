@@ -281,3 +281,5 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/120282139-60fa0300-c2ec-11eb-80b9-bb97bc0f423c.png)  
 【1】`Class<T>`其中T表示该该类对象对应的类的类型，如String.class类型就是Class<String>, 如果要表示的类是未知的就是用?表示`Class<?>`  
 【2】当返回值的类型不确定时也需要使用泛型， 使用格式为： `<T> T` 表示返回值类型  
+### 数字后面加"L"
+[1] java中将数字默认当作整型(Integer)处理, 后边加"L"表示数字为长整型(Long)  
