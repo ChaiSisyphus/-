@@ -283,3 +283,6 @@ person = new Person("ZhangSan");
 【2】当返回值的类型不确定时也需要使用泛型， 使用格式为： `<T> T` 表示返回值类型  
 ### 数字后面加"L"
 [1] java中将数字默认当作整型(Integer)处理, 后边加"L"表示数字为长整型(Long)  
+### char类型转换为int类型方法  
+![image](https://user-images.githubusercontent.com/60838780/121026798-058eb000-c7d9-11eb-8506-6e3d9c787dbb.png)  
+[1] 对每个char类型, 都减去`'0'`即可, 然后将值赋予`int`类型就可以了  
