@@ -286,3 +286,6 @@ person = new Person("ZhangSan");
 ### char类型转换为int类型方法  
 ![image](https://user-images.githubusercontent.com/60838780/121026798-058eb000-c7d9-11eb-8506-6e3d9c787dbb.png)  
 [1] 对每个char类型, 都减去`'0'`即可, 然后将值赋予`int`类型就可以了  
+### java使用连续与操作, 程序可能提前结束  
+![image](https://user-images.githubusercontent.com/60838780/121647192-b42c3c80-cac8-11eb-8282-344b8338ac35.png)  
+[1] java出现结果连续与操作时, 如果结果中出现第一个true时, 程序就会提前终止运行, 导致程序不能完整运行, 如果想要使用回溯获取所有结果时, 要注意这种写法不能获取所有结果  
