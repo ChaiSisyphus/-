@@ -290,3 +290,6 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/121647192-b42c3c80-cac8-11eb-8282-344b8338ac35.png)  
 [1] java出现结果连续与(使用短路与(&&))操作时, 如果结果中出现第一个true时, 程序就会提前终止运行, 导致程序不能完整运行, 如果想要使用回溯获取所有结果时, 要注意这种写法不能获取所有结果  
 [2] 单个的与(&) 或(|), 并不会出现程序提前停止的现象, 而是会对所有元素进行判断然后取计算后的逻辑值  
+### Arrays.sort 与 Collection.sort 注意事项  
+![image](https://user-images.githubusercontent.com/60838780/122172136-0c8d8080-ceb3-11eb-943b-eae385abb75d.png)  
+[1] 由于泛型不能使用基本数据类型, 所以在重写Comparator<>()时, Array与Collection对应的数据集合中元素的类型不能为基本数据类型, 基本数据类型要转化为包装类  
