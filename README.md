@@ -297,3 +297,8 @@ person = new Person("ZhangSan");
 ![image](https://user-images.githubusercontent.com/60838780/123208994-957b6c00-d4f2-11eb-93ce-c81fb8ea9566.png)  
 [1] 以后需要对字符串进行操作时, 直接构造new StringBuilder(s)对象, 对字符串所有的操作需要, stringBuilder都能够满足  
 [2] 还可以使用StringBuilder的reverse(); indexOf(); insert(); append(); delete(); deleteCharAt(); charAt(); setCharAt(); deleteCharAt(); 方法  
+### 栈与队列携带的属性对整个容器的影响  
+![image](https://user-images.githubusercontent.com/60838780/123269321-73eda500-d531-11eb-9b00-e87861d5a30d.png)  
+[1] 使用栈的特性, 来保存每次入栈后, 容器内所有元素的最大值的状态    
+[2] 栈中每个元素的属性对之前入栈的所用元素的影响都是暂时, 这个影响会随着该元素的出栈而消失, 因此可看作每个元素对之前入栈元素的影响都是被临时保存的, 每次元素都保留着自己对栈的影响, 因此栈的这种数据结构最适合用来保存临时的状态  
+[3] 队列中每个元素对之前入栈的元素整体的影响是永久的, 每个元素对队列的印象直到它出队列才会消失, 这种对之前状态产生永久影响的性质和程序运行的过程相同, 因此队列主要用来重复这种正常运行的状态  
