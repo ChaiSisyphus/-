@@ -293,3 +293,7 @@ person = new Person("ZhangSan");
 ### Arrays.sort 与 Collection.sort 注意事项  
 ![image](https://user-images.githubusercontent.com/60838780/122172136-0c8d8080-ceb3-11eb-943b-eae385abb75d.png)  
 [1] 由于泛型不能使用基本数据类型, 所以在重写Comparator<>()时, Array与Collection对应的数据集合中元素的类型不能为基本数据类型, 基本数据类型要转化为包装类  
+### 对于字符串增删改查的操作都可以由StringBuilder完成  
+![image](https://user-images.githubusercontent.com/60838780/123208994-957b6c00-d4f2-11eb-93ce-c81fb8ea9566.png)  
+[1] 以后需要对字符串进行操作时, 直接构造new StringBuilder(s)对象, 对字符串所有的操作需要, stringBuilder都能够满足  
+[2] 还可以使用StringBuilder的reverse(); indexOf(); insert(); append(); delete(); deleteCharAt(); charAt(); setCharAt(); deleteCharAt(); 方法  
