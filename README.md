@@ -305,3 +305,6 @@ person = new Person("ZhangSan");
 ### 标记循环中的最大值和最小值  
 ![image](https://user-images.githubusercontent.com/60838780/123499223-bdd8a700-d667-11eb-9160-888799f20388.png)  
 [1] 需要标记循环中最大值和最小值时, 最好使用Integer.MIN_VALUE和Integer.MAX_VALUE; 防止使用循环的首位数出现程序bug;  
+### Arrays.depthToString(); 方法
+![image](https://user-images.githubusercontent.com/60838780/123531800-35770680-d73a-11eb-80d1-a24134752075.png)  
+[1] depthToSting();设计用来将数组中的引用数据类型打印出来, 因此主要用来打印多维数据  
