@@ -308,3 +308,9 @@ person = new Person("ZhangSan");
 ### Arrays.depthToString(); 方法
 ![image](https://user-images.githubusercontent.com/60838780/123531800-35770680-d73a-11eb-80d1-a24134752075.png)  
 [1] depthToSting();设计用来将数组中的引用数据类型打印出来, 因此主要用来打印多维数据  
+### 按层排列的完全二叉树的性质  
+![image](https://user-images.githubusercontent.com/60838780/124552241-d9ad2b80-de65-11eb-91cb-fc2503d3e7e4.png)  
+【1】二叉树的第一层索引为0，因此称为第0层，n表示第n层数的索引  
+【2】每层开始的数字为 2^n  
+【3】每个数字需要使用n+1位二进制数表示  
+【4】每个数字的二进制数除了最高位为1外，其余各位可以表示从顶点遍历下来的路径，从左到右1表示向右遍历子节点，0表示向左遍历子节点  
